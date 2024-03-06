@@ -1,0 +1,34 @@
+/* style.css */
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+}
+
+#countdown {
+    text-align: center;
+}
+
+#progress-bar-container {
+    width: 80%;
+    background-color: #ddd;
+    border-radius: 20px;
+    margin: 20px auto;
+    height: 30px;
+}
+
+#progress-bar {
+    background-color: #4CAF50;
+    height: 100%;
+    border-radius: 18px;
+    width: 0%;
+}
+
+#timer, #percentage {
+    font-size: 2em;
+    margin: 10px 0;
+}
+

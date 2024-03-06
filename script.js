@@ -1,5 +1,5 @@
 // script.js
-const targetDate = new Date("2024-12-25T00:00:00").getTime(); // Example: Christmas 2024
+const targetDate = new Date("2024-10-12T00:00:00").getTime(); // October 12th, 2024
 
 function updateCountdown() {
     const now = new Date().getTime();
